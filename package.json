@@ -1,0 +1,17 @@
+{
+  "name": "mysql_rest",
+  "version": "1.0.0",
+  "description": "mysql rest api",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js --watch"
+  },
+  "author": "budiboy",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "mysql": "^2.18.1"
+  }
+}
